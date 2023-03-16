@@ -5,8 +5,7 @@
 # docker build . -t hypertidy/gdal-small-r-devel
 
 ## run this baby with
-# docker run -it --rm -v /home/gdal/Git/gdal-source:gdal-source hypertidy/gdal-small-r-devel:latest
-
+# docker run --rm -ti -e PASSWORD=pass -p 8787 -v /home/gdal/Git/gdal-source:gdal-source hypertidy/gdal-small-r-devel:latest
 
 
 # This file is available at the option of the licensee under:
